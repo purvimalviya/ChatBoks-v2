@@ -1,0 +1,84 @@
+body{
+    background-color: palegreen;
+}
+
+.container{
+    max-width: 700px;
+    background-color: wheat;
+    margin: auto;
+    height: 70vh;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    /* height: 2px; */
+    width: 10px;  /* Total width including `border-width` of scrollbar thumb */
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(253, 246, 233);
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+
+
+.message{
+    background-color: rgb(253, 246, 233);
+    width: 25%;
+    padding: 10px;
+    margin: 10px 15px;
+    border-radius: 15px;
+    color: rgb(85, 78, 64);
+    font-family: monospace;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+/* .new-user{
+    background-color: palegreen;
+} */
+
+.rangila{
+    background-color: black;
+}
+#send-container{
+    display: block;
+    max-width: 725px;
+    width: 100%;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#messageInp{
+    border: 0px;
+    width: 88%;
+    height: 45px;
+    border-radius: 30px;
+    font-family: monospace;
+    padding-left: 10px;
+}
+
+.btn{
+    border:0px;
+    border-radius: 120px;
+    background-color: wheat;
+    color: rgb(85, 78, 64);
+    height: 45px;
+    padding: 15px;
+    margin-top:10px;
+}
+
