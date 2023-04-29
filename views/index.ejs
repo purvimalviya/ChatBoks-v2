@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>enter chat</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <form action="/" method="post" id="enter">
@@ -12,5 +13,70 @@
         <input type="text" name="room" id="roomname" placeholder="Enter room name">
         <button class="btn">Submit</button> 
     </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBoks</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 733px)" href="static/style2.css">
+    <link rel="stylesheet" media="screen and (max-width: 506px)" href="static/style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo-box">
+                    <img src="static/ic.png" alt="" class="logo">
+                    <!-- <h1 class="logo">ChatBoks</h1> -->
+                </a>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="landing-page">
+        <div class="container">
+            <div class="content">
+                <div class="content-details">
+                    <h1 class="title">Welcome to ChatBoks.</h1>
+                    <p class="paragraph">Start chatting now by filling a few empty boxes, you can chat with your friends or with strangers.</p>
+                    <form action="/" method="post" class="search" id="enter">
+                        <input type="text" name="name" class="search-bar" id="username" placeholder="Enter your name">
+                        <input type="text" name="room" class="search-bar" id="roomname" placeholder="Enter room code">
+                        <button class="hue-shift search-btn">Submit</button> 
+                    </form>
+                </div>
+
+                <div class="image-group">
+                    <img src="static/image17.png" alt="" class="hue-shift blob-large">
+                    <img src="static/image18.png" alt="" class="hue-shift blob-bean">
+                </div>
+            </div>
+        </div>
+
+        <!-- <img src="" alt="" class="blob blob-1">
+        <img src="" alt="" class="blob blob-2">
+        <img src="" alt="" class="blob blob-3">
+        <img src="" alt="" class="blob blob-4"> -->
+    </section>
+    
 </body>
 </html>

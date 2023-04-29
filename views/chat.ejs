@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatBoks</title>
     <link rel="stylesheet" href="static/chat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="roomname"><%=roomname%></div>
+    <div class="header">
+        <div class="logodiv"> <img src="static/icon.png" alt="" class="logo"></div>
+        
+    </div>
+    
     <div class="container">
         <div class="message left">Hi there!</div>
         <div class="message right">Hello, how are you?</div>
@@ -21,7 +26,7 @@
             <button class="btn" type="submit"> Send </button>
         </form>
     </div>
-
+    <div id="roomname" class="code">Room Code <%=roomname%></div>
     <script src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script src="static/client.js"></script>
 </body>
